@@ -30,29 +30,30 @@ Base64: Base64 encoding is used to embed images directly into the HTML structure
 
 Insert:
   
+![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/78a5d610-3d80-4a76-ab9e-554674e32b74)
 
+![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/7b02d4a3-fe5b-42d6-a007-176167c12870)
 
-Read
-
+# Read
  
+ ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/5df74290-7329-44c8-8970-0a2adb9e7a36)
+
+![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/55105646-6bf5-4261-90c4-9abf061d6af6)
+
+# Update
  
+![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/898fe81e-95c1-4b0e-a8ef-5c1549cfa3ef)
 
-Update
- 
-
- 
-
-Delete
- 
- 
+ ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/6652fb7e-303d-4e58-8cd7-29ace2c6ba99)
 
 
+# Delete
+ ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/ff491cc1-f69e-45ad-b096-92bd8885758d)
+
+ ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/1afff672-8c65-4a15-89fc-0203a3c5daba)
 
 
-
-
-
-Reset Filter
+# Reset Filter
  ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/852023d4-16c2-4efe-bc5d-0d5da1cc0a10)
 
 
