@@ -44,19 +44,25 @@ The insert_success variable will indicate whether the insertion was successful.
 ```
 
 Read (Query): To retrieve documents or records from the database based on specific query criteria, use the ‘read’ method and provide a query dictionary. 
+```
 query_criteria = {“animal_type”: “Dog”}
 results = shelter.read(query_criteria)
+```
 The results variable will contain a list of documents that match the query criteria.
 
 Update (Change): To update documents in the database use the ‘update’ method. Provide both a search criteria dictionary to identify the documents to update and an update data dictionary to specify the changes you want to make. 
+```
 search_criteria = {“name”: “Buddy”}
 update_data = {“age”: 6)
 num_updated = shelter.update(search_criteria, update_data)
+```
 The num_updated variable will indicate how many records were updated.
 
 Delete (Remove): To remove documents from the database you must use the ‘delete’ method and provide a delete criteria dictionary.  
+```
 delete_criteria = {“name”: “Buddy”, “age”: 6}
 num_deleted = shelter.delete(delete_criteria) 
+```
 The num_deleted variable will indicate how many records were deleted.
 
 
