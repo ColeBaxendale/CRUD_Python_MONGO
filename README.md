@@ -36,21 +36,21 @@ shelter = AnimialShelter()
 
 You can now use the ‘shelter’ object to perform CRUD operations on the MongoDB database. 
 
-Create (Insert): To insert a new document or record into the database use the ‘create’ method and provide a dictionary containing the data you want to insert. 
+# Create (Insert): To insert a new document or record into the database use the ‘create’ method and provide a dictionary containing the data you want to insert. 
 ```
 data_to_insert = {“name”: “Fluffy”, “animal_type”: “Cat”}
 insert_success = shelter.create(data_to_insert)
 The insert_success variable will indicate whether the insertion was successful. 
 ```
 
-Read (Query): To retrieve documents or records from the database based on specific query criteria, use the ‘read’ method and provide a query dictionary. 
+# Read (Query): To retrieve documents or records from the database based on specific query criteria, use the ‘read’ method and provide a query dictionary. 
 ```
 query_criteria = {“animal_type”: “Dog”}
 results = shelter.read(query_criteria)
 ```
 The results variable will contain a list of documents that match the query criteria.
 
-Update (Change): To update documents in the database use the ‘update’ method. Provide both a search criteria dictionary to identify the documents to update and an update data dictionary to specify the changes you want to make. 
+# Update (Change): To update documents in the database use the ‘update’ method. Provide both a search criteria dictionary to identify the documents to update and an update data dictionary to specify the changes you want to make. 
 ```
 search_criteria = {“name”: “Buddy”}
 update_data = {“age”: 6)
@@ -58,7 +58,7 @@ num_updated = shelter.update(search_criteria, update_data)
 ```
 The num_updated variable will indicate how many records were updated.
 
-Delete (Remove): To remove documents from the database you must use the ‘delete’ method and provide a delete criteria dictionary.  
+# Delete (Remove): To remove documents from the database you must use the ‘delete’ method and provide a delete criteria dictionary.  
 ```
 delete_criteria = {“name”: “Buddy”, “age”: 6}
 num_deleted = shelter.delete(delete_criteria) 
@@ -66,10 +66,8 @@ num_deleted = shelter.delete(delete_criteria)
 The num_deleted variable will indicate how many records were deleted.
 
 
-Insert:
-  
+# Insert:
 ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/78a5d610-3d80-4a76-ab9e-554674e32b74)
-
 ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/7b02d4a3-fe5b-42d6-a007-176167c12870)
 
 # Read
@@ -87,10 +85,10 @@ Insert:
 # Reset Filter
 ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/852023d4-16c2-4efe-bc5d-0d5da1cc0a10)
 
-#Water Rescue Filter
+# Water Rescue Filter
 ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/0865610a-ab64-41d4-84ad-d42af93fc59c)
 
-#Mountain Rescue Filter
+# Mountain Rescue Filter
 ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/fedad37b-80b8-402b-919c-ef3a359a759a)
 
 # Disaster Filter
