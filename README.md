@@ -26,3 +26,36 @@ JupyterDash: JupyterDash is a library that allows you to develop and test Dash a
 
 Base64: Base64 encoding is used to embed images directly into the HTML structure. Python includes a base64 module that can be used for encoding and decoding data in base64. No additional installation is required.
 
+## CODE EXAMPLE
+
+Insert:
+  
+
+
+Read
+
+ 
+ 
+
+Update
+ 
+
+ 
+
+Delete
+ 
+ 
+
+
+
+
+
+
+
+Reset Filter
+ ![image](https://github.com/ColeBaxendale/CRUD_Python_MONGO/assets/97856451/852023d4-16c2-4efe-bc5d-0d5da1cc0a10)
+
+
+
+
+
