@@ -37,10 +37,11 @@ shelter = AnimialShelter()
 You can now use the ‘shelter’ object to perform CRUD operations on the MongoDB database. 
 
 Create (Insert): To insert a new document or record into the database use the ‘create’ method and provide a dictionary containing the data you want to insert. 
+```
 data_to_insert = {“name”: “Fluffy”, “animal_type”: “Cat”}
 insert_success = shelter.create(data_to_insert)
 The insert_success variable will indicate whether the insertion was successful. 
-
+```
 
 Read (Query): To retrieve documents or records from the database based on specific query criteria, use the ‘read’ method and provide a query dictionary. 
 query_criteria = {“animal_type”: “Dog”}
